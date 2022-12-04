@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 const decompress = async () => {
   try {
     const input = path.join(__dirname, "./files/archive.gz");
-    const output = path.join(__dirname, "./files/fileToCompress.txt ");
+    const output = path.join(__dirname, "./files/fileToCompress.txt");
 
     const createStream = fs.createReadStream(input);
 
